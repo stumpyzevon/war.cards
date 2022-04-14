@@ -10,7 +10,7 @@ const footer = () => {
   footerContainer.appendChild(div);
 
   const footerText = document.createElement('p');
-  footerText.innerHTML = `Created by <a href="https://github.com/stumpyzevon">Stumpy Zevon</a>`;
+  footerText.innerHTML = `Created by <a href="https://github.com/stumpyzevon">Stumpy Zevon</a>.<br>Theme is <a href="https://getbootstrap.com/docs/4.0/examples/cover/">Cover</a> by <a href="https://twitter.com/mdo">@mdo</a>.`;
   div.appendChild(footerText);
   return footerContainer;
 }
@@ -26,9 +26,8 @@ const mainDescription = () => {
 
   const description = document.createElement('p');
   description.classList.add('lead');
-  description.innerHTML = `This is an example of a roster viewer made using the war.cards parser. The source can be found
-    <a href="http://github.com/stumpyzevon/war.cards"> on GitHub</a>. The parser is used in the online roster editor
-    <a href="https://war.cards">war.cards</a>.<br><br><strong>NOTE:</strong> this does not accept .rosz files! Only uncompressed .ros files.`;
+  description.innerHTML = `This is an example of a roster viewer made using the war.cards parser. The same parser is used in the online roster editor
+    <a href="https://war.cards">war.cards</a>. Click <strong>Upload .ros file...</strong> in the menu to begin.<br><br><strong>NOTE:</strong> this does not accept .rosz files! Only uncompressed .ros files.`;
   main.appendChild(description);
 
   return main;
