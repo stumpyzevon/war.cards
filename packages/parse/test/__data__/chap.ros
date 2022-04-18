@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="7cb1-f7ac-a5ab-b2da" name="chappy" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 9th Edition" gameSystemRevision="192" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="2.0"/>
+    <cost name="pts" typeId="points" value="245.0"/>
+  </costs>
+  <forces>
+    <force id="a62b-45a0-ecf1-a292" name="Patrol Detachment 0CP" entryId="a0c7-2a71-bae0-215d" catalogueId="24b6-2b46-0063-2867" catalogueRevision="207" catalogueName="Imperium - Adeptus Astartes - Space Wolves">
+      <rules>
+        <rule id="7ca8-1da1-1298-1b8f" name="Combat Doctrines" hidden="false">
+          <description>(See page 125 of Codex Space Marines)</description>
+        </rule>
+        <rule id="56c8-d16d-5c20-9e0e" name="And They Shall Know No Fear" hidden="false">
+          <description>Each time a Combat Attrition test is taken for this unit, ignore any or all modifiers</description>
+        </rule>
+        <rule id="62e2-2d8c-8242-d10f::f9ce-5a8b-7abd-2395" name="Shock Assault" hidden="false">
+          <description>Each time this unit fights if it made a charge move, was charged or performed a Heroic Intervention this turn, then until that fight is resolved, add 1 to the Attacks characteristic of models in this unit. </description>
+        </rule>
+        <rule id="8b08-8c58-a3d3-511e::5a7e-f984-487c-d767" name="Bolter Discipline" hidden="false">
+          <description>Instead of following the normal rules for Rapid Fire weapons, models in this unit shooting Rapid Fire bolt weapons make double the number of attacks if any of the following apply
+
+- The shooting model&apos;s target is within half the weapon&apos;s range
+- The shooting model is Infantry (excluding Centurion models) and it&apos;s unit Remained Stationary in your previous Movement Phase.
+- The shooting model is a Terminator or Biker
+
+For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (see page 195) with the Rapid Fire type. </description>
+        </rule>
+        <rule id="69aa-c5f2-5b03-a0f4::5a7e-f984-487c-d767" name="Bolter Discipline" hidden="false">
+          <description>Instead of following the normal rules for Rapid Fire weapons, models in this unit shooting Rapid Fire bolt weapons make double the number of attacks if any of the following apply
+
+- The shooting model&apos;s target is within half the weapon&apos;s range
+- The shooting model is Infantry (excluding Centurion models) and it&apos;s unit Remained Stationary in your previous Movement Phase.
+- The shooting model is a Terminator or Biker
+
+For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (see page 195) with the Rapid Fire type. </description>
+        </rule>
+        <rule id="72af-ff72-3c22-1adb::01a4-bec8-b573-fde7" name="Angels of Death" hidden="false">
+          <description>This unit has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.</description>
+        </rule>
+        <rule id="7c67-af0c-8c79-423b::f9ce-5a8b-7abd-2395" name="Shock Assault" hidden="false">
+          <description>Each time this unit fights if it made a charge move, was charged or performed a Heroic Intervention this turn, then until that fight is resolved, add 1 to the Attacks characteristic of models in this unit. </description>
+        </rule>
+      </rules>
+      <selections>
+        <selection id="892e-94a8-b95a-637e" name="**Chapter Selector**" entryId="b418-97df-6c21-274a::5b31-21ba-9d8f-55a1" number="1" type="upgrade">
+          <selections>
+            <selection id="7920-7262-a800-88b4" name="Space Wolves" entryId="b418-97df-6c21-274a::4da8-aa69-77ec-b49e" entryGroupId="b418-97df-6c21-274a::5e28-4704-32ed-fb57" number="1" type="upgrade">
+              <rules>
+                <rule id="b418-97df-6c21-274a::4aa3-71c3-09cb-484f" name="Hunters Unleashed" hidden="false">
+                  <description>- Each time a model with this tactic makes a melee attack, if that model’s unit made a charge move, was charged or performed a Heroic Intervention this turn, add 1 to that attack’s hit roll. 
+- Units with this tactic are eligible to perform Heroic Interventions as if they were CHARACTERS.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="97d8-e994-ae4d-300c" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+            <category id="6068-e3ca-d0a9-02b3" name="PC: SW" entryId="b94e-1480-56dc-b77a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="532e-8d98-d2e1-f923" name="Detachment Command Cost" entryId="ec87-f19e-eee2-1ba8::9d97-2793-9882-d48a" number="1" type="upgrade">
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="8f49-bc43-d8a6-7af0" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="eed3-60fb-0da9-fd4e" name="Chaplain" entryId="f823-08bc-7aac-0f85::400e-bbea-4690-6942" number="1" type="model">
+          <rules>
+            <rule id="f823-08bc-7aac-0f85::5325-e2fb-fe8a-16a9::01a4-bec8-b573-fde7" name="Angels of Death" hidden="false">
+              <description>This unit has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f823-08bc-7aac-0f85::56f0-bb3f-91ce-85ea" name="Chaplain (Jump Pack)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f823-08bc-7aac-0f85::da57-a745-22f0-50a8::3f26-e8cb-ea53-e656" name="Spiritual Leaders" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a friendly &lt;CHAPTER&gt; CORE unit is within 6&quot; of this model, models in that unit can use this model&apos;s Leadership characteristic instead of their own</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f823-08bc-7aac-0f85::40ba-637d-b8c3-ca47::b355-bd49-c5a5-805f" name="Rosarius" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f427-6bf8-6138-d3ad::50dd-5312-6550-d7e0" name="Savage Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst the Assault Doctrine is active, if an unmodified hit roll of 6 is made for an attack made with a melee weapon by a unit with this ability, that attack scores 1 additional hit on the target.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="194f-4f62-dc61-5044" name="Crozius arcanum" entryId="f823-08bc-7aac-0f85::6446-7cd7-baa5-4934::7543-5a4e-0f59-bacc" number="1" type="upgrade">
+              <profiles>
+                <profile id="f823-08bc-7aac-0f85::6446-7cd7-baa5-4934::bcb7-6a0e-0fea-7e7f::e854-e9be-4a79-d56d" name="Crozius arcanum" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="423b-c045-6ee0-d596" name="Frag &amp; Krak grenades" entryId="f823-08bc-7aac-0f85::4b37-1b67-f176-07bd::cddf-945e-1335-e681" number="1" type="upgrade">
+              <profiles>
+                <profile id="f823-08bc-7aac-0f85::4b37-1b67-f176-07bd::61a4-e2d3-522d-c838::fdd8-1a5f-5722-d6ee" name="Frag grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f823-08bc-7aac-0f85::4b37-1b67-f176-07bd::b250-1f2e-4904-0eb4::3bf6-b4f7-6b2f-bb7b" name="Krak grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="181e-51d6-17ce-2f7b" name="Litany of Hate" entryId="0200-0c04-a61b-09e3::a441-cc96-406f-0667" number="1" type="upgrade">
+              <profiles>
+                <profile id="0200-0c04-a61b-09e3::b469-e2e6-13e4-d8f1" name="Litany of Hate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, then while a friendly Core or Character unit is within 6&quot; of this Priest, each time a model in that unit makes a melee attack, you can re-roll the hit roll</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="dc6e-31f7-ce19-25fb" name="Warlord" entryId="f823-08bc-7aac-0f85::84ca-2030-5768-9de7::01cf-00c7-c4af-701b" number="1" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="e7c1-a510-eb74-4a4d" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="0e00-d898-5a77-97de" name="Stratagem: Warrior of Legend" entryId="d731-abd9-7b27-b781::ad41-3ce3-001e-7a9c" number="1" type="upgrade">
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c9bb-d258-5c2a-78f7" name="Jump Pack" entryId="f823-08bc-7aac-0f85::7f51-5273-481a-1c9b::181e-0718-160e-2e75" number="1" type="upgrade">
+              <rules>
+                <rule id="f823-08bc-7aac-0f85::7f51-5273-481a-1c9b::4df1-a2a8-5d0b-a525::5278-7ae7-6d55-1ee2" name="Death from Above" hidden="false">
+                  <description>During deployment, if every model in this unit has this ability, then you can set up this unit high in the skies instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9&quot; away from enemy models. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="5837-ec0c-b56d-4c1e" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+                <category id="535c-3143-3348-1301" name="Jump Pack" entryId="f627-f23e-a3b4-dc2c" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="1e6b-6caa-0a49-7338" name="Chapter Command:  Master of Sanctity" entryId="f823-08bc-7aac-0f85::af80-1522-23d7-f2dc::e0a6-ed26-3732-6cde" number="1" type="upgrade">
+              <profiles>
+                <profile id="f823-08bc-7aac-0f85::af80-1522-23d7-f2dc::6038-1d58-987e-d2c5::34eb-b67c-35f4-e6ba" name="Master of Sanctity" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model knows one additional Litany from Litanies of Battle . In your Command phase, if this model is on the battlefield, it can recite one additional litany it knows that has not already been recited by a friendly model that turn.  </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+                <cost name="pts" typeId="points" value="25.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="a796-97c7-f2ee-ad8b" name="Master of Sanctity" entryId="92b8-bb7d-eff0-5772" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="0555-491f-6754-2716" name="3. Exhortation of Rage" entryId="55a0-0de3-3693-c341::5811-dbbf-7056-131c::838b-b988-1e30-4a86" entryGroupId="55a0-0de3-3693-c341::5811-dbbf-7056-131c::cd9a-45c1-d055-18bc" number="1" type="upgrade">
+              <profiles>
+                <profile id="55a0-0de3-3693-c341::5811-dbbf-7056-131c::2ca6-9549-52bb-d6ae" name="3. Exhortation of Rage" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, select one friendly CORE or CHARACTER unit within 6&quot; of this PRIEST.  Each time a model in that unit makes a melee attack, add 1 to that attack&apos;s wound roll. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a5c2-c122-33ae-3abd" name="6. Canticle of Hate (Aura)" entryId="55a0-0de3-3693-c341::5811-dbbf-7056-131c::dca7-b506-4adb-6f37" entryGroupId="55a0-0de3-3693-c341::5811-dbbf-7056-131c::cd9a-45c1-d055-18bc" number="1" type="upgrade">
+              <profiles>
+                <profile id="55a0-0de3-3693-c341::5811-dbbf-7056-131c::5b63-314c-b044-d0a4" name="6. Canticle of Hate (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this litany is inspiring, then while a friendly CORE or CHARACTER unit within 6&quot; of this PRIEST:
+- Add 2 to charge rolls made for that unit. This is not cumulative with any other rule that adds to a unit&apos;s charge roll.
+- Each time a model in that unit makes a pile-in or consolidation move, it can move up to an additional 3&quot;. This is not cumulative with any other rule that increases the distance models can pile in or consolidate. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0027-7256-8e55-fbb0" name="The Wulfen Stone" entryId="ac97-1bbf-cd06-a714::2468-1531-c82d-80d5::fa8e-6628-da0d-e3ab" entryGroupId="ac97-1bbf-cd06-a714::2468-1531-c82d-80d5::852c-a667-c934-d436" number="1" type="upgrade">
+              <profiles>
+                <profile id="ac97-1bbf-cd06-a714::2468-1531-c82d-80d5::1578-65cb-b374-b118" name="The Wulfen Stone" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- The bearer has the following ability: &quot;Bestial Charge (Aura): While a friendly SPACE WOLVES CORE unit is within 6&quot; of the bearer you can re-roll charge rolls made for that unit.
+- Once per battle, at the start of the Fight phase, the bearer can evoke the spirits of the Wulfen. If it does, select one friendly SPACE WOLVES unit within 6&quot; of the bearer that has the Savage Fury ability; until the end of the phase, each time a model in that unit makes an attack, the additional hit scored as a result of the Savage Fury ability is activated on an unmodified roll of 5+ for that attack.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c84b-8292-860a-a378" name="Bolt pistol" entryId="f823-08bc-7aac-0f85::38dd-f7dc-e9b0-a483::c541-ea70-5448-31f8::0334-f487-8229-0c1a" entryGroupId="f823-08bc-7aac-0f85::38dd-f7dc-e9b0-a483::fb38-f29c-b8de-3ba6" number="1" type="upgrade">
+              <profiles>
+                <profile id="f823-08bc-7aac-0f85::38dd-f7dc-e9b0-a483::c541-ea70-5448-31f8::45bf-2847-b181-19e4::e6d5-677a-d8ed-f6a5" name="Bolt pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="bf25-91a1-ab53-73da" name="Hunter" entryId="aa1b-2e7e-fdb1-625b::587b-aaeb-9232-aa68::a3d4-9f41-24c4-0948::ad4b-27ec-c7ce-a81a" entryGroupId="aa1b-2e7e-fdb1-625b::587b-aaeb-9232-aa68::4b0f-2bc6-edd6-6c5e" number="1" type="upgrade">
+              <profiles>
+                <profile id="aa1b-2e7e-fdb1-625b::587b-aaeb-9232-aa68::a3d4-9f41-24c4-0948::51ae-bf00-2b3c-9059" name="Hunter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">- Add 1 to Advance and charge rolls made for this WARLORD.
+- This WARLORD is eligible to charge in a turn in which it Advanced or Fell Back.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="12b6-a86f-ce35-0265" name="Wise Orator" entryId="aa1b-2e7e-fdb1-625b::f959-1b78-5078-04ff::ea01-05a7-deea-d6be" entryGroupId="aa1b-2e7e-fdb1-625b::f959-1b78-5078-04ff::42cf-0421-3907-777f" number="1" type="upgrade">
+              <profiles>
+                <profile id="aa1b-2e7e-fdb1-625b::f959-1b78-5078-04ff::6705-b35b-58dc-bcb9" name="Wise Orator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this WARLORD recites a Litany, add 1 to the roll to see if it is inspiring.
+Each time this WARLORD is selected to use the Commanding Oratory stratagem, that stratagem costs 1 command point. </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="47f7-c89f-96b3-92af" name="Faction: Adeptus Astartes" entryId="c7b7-edbc-bc14-6238" primary="false"/>
+            <category id="ea81-6afa-1770-c50b" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="566a-b20c-b84e-9e70" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="d4ce-4de3-d749-fb72" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="6ee4-a39c-6918-dacd" name="Chaplain" entryId="c3f5-f3b2-bdbb-4742" primary="false"/>
+            <category id="564d-285d-3334-7b56" name="Priest" entryId="b0b9-4578-dfef-18fd" primary="false"/>
+            <category id="a3ed-4025-8667-431e" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="3e1a-b1f9-08c0-dfb8" name="Wolf Priest" entryId="981b-2873-1352-6727" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="d7f3-55ce-a246-f322" name="Battle Size" entryId="44e3-c224-ba82-1b55::f29d-8a5d-18b6-a071" number="1" type="upgrade">
+          <selections>
+            <selection id="0c58-786e-6d98-e9b4" name="1. Combat Patrol (0-50 Total PL / 0-500 Points) " entryId="44e3-c224-ba82-1b55::af70-08c1-1c6f-0770" entryGroupId="44e3-c224-ba82-1b55::2883-57e8-87a6-38e2" number="1" type="upgrade">
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="3.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="80a1-97f6-bc13-f651" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="3b99-245f-ab3b-0860" name="Assault Intercessor Squad" entryId="62f2-ee64-846e-40e7::2ab1-1cf3-acbf-530e" number="1" type="unit">
+          <rules>
+            <rule id="62f2-ee64-846e-40e7::bf89-dde2-45c7-8dee::af4f-5849-3bd3-e2fd" name="Combat Squads" hidden="false">
+              <description>Before any models are deployed at the start of the game, this unit when containing its maximum number of models, may be split into two units each containing an equal number of models.</description>
+            </rule>
+            <rule id="62f2-ee64-846e-40e7::419e-38de-0f3a-994e::01a4-bec8-b573-fde7" name="Angels of Death" hidden="false">
+              <description>This unit has the following abilities: And They Shall Know No Fear, Bolter Discipline, Shock Assault and Combat Doctrines.</description>
+            </rule>
+            <rule id="0aac-20e6-84dc-94be::87a0-1e8f-4535-6dd1" name="Objective Secured" hidden="false">
+              <description>Troops units in ADEPTUS ASTARTES Detachments gain the Objective Secured ability.
+
+A player controls an objective marker if they have any models with this ability within range of that objective marker, even if there are more enemy models within range of that objective marker. If an enemy model within range of an objective marker also has this ability (or a similar ability), thne the obhjective marker is controlled by the player who has the mosty models within range of that objective marker as usual.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="08d6-4961-613c-dbfc::50dd-5312-6550-d7e0" name="Savage Fury" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst the Assault Doctrine is active, if an unmodified hit roll of 6 is made for an attack made with a melee weapon by a unit with this ability, that attack scores 1 additional hit on the target.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="749d-99d1-e40b-cda0" name="Assault Intercessor Sgt" entryId="62f2-ee64-846e-40e7::8d8e-ccc5-4f05-1e53" entryGroupId="62f2-ee64-846e-40e7::3639-0148-de54-3ec7" number="1" type="upgrade">
+              <profiles>
+                <profile id="62f2-ee64-846e-40e7::64d6-19b4-8310-c62b" name="Assault Intercessor Sgt" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="2c3c-3c15-fb8a-2ae3" name="Frag &amp; Krak grenades" entryId="62f2-ee64-846e-40e7::c4e0-e132-bc26-b6bc::cddf-945e-1335-e681" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::c4e0-e132-bc26-b6bc::61a4-e2d3-522d-c838::fdd8-1a5f-5722-d6ee" name="Frag grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="62f2-ee64-846e-40e7::c4e0-e132-bc26-b6bc::b250-1f2e-4904-0eb4::3bf6-b4f7-6b2f-bb7b" name="Krak grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="68c5-633c-43d5-f7dc" name="Heavy Bolt Pistol" entryId="62f2-ee64-846e-40e7::d01c-36c9-16db-0fde::1d61-94e5-b2d1-13ac" entryGroupId="62f2-ee64-846e-40e7::4220-36a6-4a50-3065" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::d01c-36c9-16db-0fde::91f6-1303-f637-315c::206b-edd4-0d52-d873" name="Heavy Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="904f-e92a-87f8-378a" name="Thunder hammer" entryId="62f2-ee64-846e-40e7::1814-ccd9-3399-d7ae::f1cb-bfc4-0b93-1203" entryGroupId="62f2-ee64-846e-40e7::f309-7fab-3335-c13c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::1814-ccd9-3399-d7ae::c769-4ef5-ded4-90f2" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack roll is made with this weapon, subtract 1 from the attack&apos;s hit roll</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="19.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1aad-a4fe-f41e-8c50" name="Assault Intercessor" entryId="62f2-ee64-846e-40e7::e17f-49df-2be8-3e65" entryGroupId="62f2-ee64-846e-40e7::3639-0148-de54-3ec7" number="4" type="upgrade">
+              <profiles>
+                <profile id="62f2-ee64-846e-40e7::c460-abfe-6155-9790" name="Assault Intercessor" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="41ba-06a8-090b-699c" name="Astartes Chainsword" entryId="62f2-ee64-846e-40e7::2a79-a30a-2b28-055e::87ee-4c8b-6e56-0a83" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::2a79-a30a-2b28-055e::8d30-0dc0-c4b2-d52b::9155-5815-056b-9fd9" name="Astartes Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When the bearer fights, it makes 1 additional attack with this weapon. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="3520-2caf-280f-c13e" name="Heavy Bolt Pistol" entryId="62f2-ee64-846e-40e7::720b-0caf-014f-9803::339d-cf44-ec7c-872f" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::720b-0caf-014f-9803::e93f-0b71-1f18-9eb0::206b-edd4-0d52-d873" name="Heavy Bolt Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="4f01-9f7a-1268-6391" name="Frag &amp; Krak grenades" entryId="62f2-ee64-846e-40e7::b46e-1107-0881-0489::cddf-945e-1335-e681" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="62f2-ee64-846e-40e7::b46e-1107-0881-0489::61a4-e2d3-522d-c838::fdd8-1a5f-5722-d6ee" name="Frag grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="62f2-ee64-846e-40e7::b46e-1107-0881-0489::b250-1f2e-4904-0eb4::3bf6-b4f7-6b2f-bb7b" name="Krak grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="76.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="88b1-c262-6238-d91b" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="bda9-7671-86c3-550a" name="Faction: Adeptus Astartes" entryId="c7b7-edbc-bc14-6238" primary="false"/>
+            <category id="2cae-fccc-2ebc-42a8" name="Primaris" entryId="53b7-cff3-c3b4-d36a" primary="false"/>
+            <category id="89f9-a6f6-9ebc-0621" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="8640-6df0-f668-3874" name="Assault Intercessor Squad" entryId="c825-d7f8-d27b-c59d" primary="false"/>
+            <category id="a2b0-85e6-fa55-e5c2" name="Core" entryId="08f1-d244-eb44-7e01" primary="false"/>
+            <category id="b0ce-c2ef-3ad9-edbb" name="Intercessors" entryId="baff-31d5-797d-42b8" primary="false"/>
+            <category id="bfd5-4fac-8b8f-62b5" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="24b6-2b46-pubN65537" name="Codex: Space Wolves"/>
+        <publication id="85df-1155-c986-4d71" name="Psychic Awakening IX: Pariah"/>
+        <publication id="c9fe-4431-b76d-267a" name="Psychic Awakening VIII: War of the Spider"/>
+        <publication id="dab7-e076-pubN133616" name="Codex: Space Wolves"/>
+        <publication id="ecea-8b62-fefb-9f8e" name="Psychic Awakening VII: Engine War"/>
+        <publication id="eaff-9d37-65fa-35a2" name="White Dwarf Jul 2019"/>
+        <publication id="28ec-711c-pubN118139" name="Index: Xenos 2"/>
+        <publication id="5c2d-db9f-58ca-e7b2" name="Psychic Awakening IV: Ritual of the Damned"/>
+        <publication id="0865-ee21-d1f1-ed38" name="War Zone Charadon, Act I: The Book of Rust"/>
+        <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Core Book"/>
+        <publication id="28ec-711c-pubN78977" name="Index: Imperium 1"/>
+        <publication id="28ec-711c-pubN98266" name="Imperium Nihilus: Vigilus Defiant"/>
+        <publication id="52c4-39c0-ae97-d4dc" name="Psychic Awakening VI: Saga of the Beast"/>
+        <publication id="b854-bcb5-5746-e0d3" name="War Zone Charadon, Act II: The Book of Fire"/>
+        <publication id="28ec-711c-pubN77581" name="Index: Imperium 2"/>
+        <publication id="dab7-e076-pubN151451" name="Astraeus Super-heavy Tank PDF"/>
+        <publication id="5093-9448-d8cc-5327" name="Psychic Awakening II: Faith and Fury"/>
+        <publication id="28ec-711c-pubN76527" name="Index: Xenos 1"/>
+        <publication id="f731-6aa6-pubN66377" name="Codex: Officio Assassinorum"/>
+        <publication id="5b08-09e5-a80a-fd67" name="Psychic Awakening I: Phoenix Rising"/>
+        <publication id="977a-446b-737a-b571" name="Chapter Approved 2021"/>
+        <publication id="ce40-ec9e-21e2-2e42" name="Warhammer Quest: Blackstone Fortress"/>
+        <publication id="28ec-711c-pubN99666" name="Index: Chaos"/>
+        <publication id="f000-7b0c-01bf-7630" name="Psychic Awakening III: Blood of Baal"/>
+        <publication id="7573-8d1b-acdf-2de8" name="Imperial Armour: Compendium"/>
+        <publication id="b652-8bab-1453-da20" name="Warhammer Legends"/>
+        <publication id="846d-3c14-pubN65537" name="Index: Imperium 1 &amp; Codex: Space Marines"/>
+        <publication id="4593-a2f0-546a-d6f2" name="Psychic Awakening V: The Greater Good"/>
+        <publication id="2ec0-6d53-e36b-9895" name="Chapter Approved 2018"/>
+        <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
+      </publications>
+      <categories>
+        <category id="4841-b9d4-8263-b02c" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="0e23-b15c-b3cb-7688" name="Configuration" entryId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <category id="0fc3-368a-90ab-fb54" name="Stratagems" entryId="c845-c72c-6afe-3fc2" primary="false"/>
+        <category id="8f2b-40f0-96ed-2828" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="0ef7-3a5e-83d1-5731" name="Agents of the Imperium" entryId="0f35-2c34-ba6a-8105" primary="false"/>
+        <category id="6b28-98bb-794b-d4e3" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="7ff8-8ead-d63c-7d0f" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="785f-53e0-8968-b471" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="ea94-780c-3865-c5a7" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="220c-9aed-7698-bb6a" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="c701-7cfd-9109-5160" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="496e-f9ea-3a62-53fe" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="82dc-43a6-0389-8dfb" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="3ddd-dcfb-e878-2a3a" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="3586-ea03-f365-aab6" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
