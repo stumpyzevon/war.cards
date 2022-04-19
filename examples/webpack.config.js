@@ -11,6 +11,12 @@ module.exports = (env) => {
     devtool: env.production ? false : 'inline-source-map',
     devServer: {
       static: './dist',
+      client: {
+        overlay: {
+          warnings: false,
+          errors: true,
+        },
+      },
     },
     plugins: [
       new ESLintPlugin({

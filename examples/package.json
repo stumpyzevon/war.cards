@@ -12,11 +12,12 @@
   "scripts": {
     "deploy": "gh-pages -d dist",
     "build": "webpack --env production",
-    "start": "webpack serve --open"
+    "start": "webpack serve"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-webpack-plugin": "^3.1.1",
     "gh-pages": "^0.1.0",
     "html-webpack-plugin": "^5.5.0",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "@war.cards/parse": "^0.1.1",
+    "@war.cards/roster": "file:../packages/roster",
     "bootstrap": "^5.1.3",
     "lodash": "^4.17.21"
   }
