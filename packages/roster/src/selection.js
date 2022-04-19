@@ -71,7 +71,7 @@ function createSelection(rosterSelection = undefined, force = undefined) {
      * }
      */
     getProfiles() {
-      let outProfiles = {};
+      const outProfiles = {};
       this.profiles.forEach((prof) => {
         if (prof._typeName in outProfiles) {
           outProfiles[prof._typeName].push(prof);
@@ -81,10 +81,14 @@ function createSelection(rosterSelection = undefined, force = undefined) {
       });
 
       this.selections.forEach((child) => {
-        outProfiles = {
-          ...outProfiles,
-          ...child.getProfiles(),
-        };
+        Object.entries(child.getProfiles()).forEach((entry) => {
+          const [profName, profiles] = entry;
+          if (profName in outProfiles) {
+            outProfiles[profName].push(...profiles);
+          } else {
+            outProfiles[profName] = profiles;
+          }
+        });
       });
       return outProfiles;
     },

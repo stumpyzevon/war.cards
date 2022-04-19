@@ -28,10 +28,15 @@ test('Intercessor Selection', () => {
   expect(intercessor._number).toEqual(4);
   expect(intercessor.getAncestor()._name).toEqual('Assault Intercessor Squad');
   const profiles = intercessor.getProfiles();
-  expect(profiles.Weapon[0]._name).toEqual('Frag grenades');
+  expect(profiles.Weapon[0]._name).toEqual('Astartes Chainsword');
   expect(profiles.Unit[0]._name).toEqual('Assault Intercessor');
   expect(profiles.Unit[0].characteristics[8]._name).toEqual('Save');
   expect(profiles.Unit[0].characteristics[8].__text).toEqual('3+');
+
+  const squadProfiles = squad.getProfiles();
+  expect(squadProfiles.Unit[0]._name).toEqual('Assault Intercessor Sgt');
+  expect(squadProfiles.Unit[0].characteristics[7]._name).toEqual('Ld');
+  expect(squadProfiles.Unit[0].characteristics[7].__text).toEqual('8');
 
   expect(intercessor.getForce()._name).toEqual(parsed.forces[0]._name);
 });
