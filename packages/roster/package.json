@@ -1,7 +1,7 @@
 {
-  "name": "@war.cards/parse",
-  "version": "0.1.1",
-  "description": "Parses .ros files.",
+  "name": "@war.cards/roster",
+  "version": "0.1.0",
+  "description": "Data structures for parsed .ros files.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest --env=jsdom --coverage --coverageProvider=v8",
@@ -27,6 +27,9 @@
     "jest-cli": "^27.5.1",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@war.cards/parse": "^0.1.1"
   },
   "babel": {
     "presets": [
