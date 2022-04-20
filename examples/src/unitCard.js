@@ -1,3 +1,5 @@
+import profileTable from './profileTable';
+
 const unitCard = (unit) => {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -15,6 +17,12 @@ const unitCard = (unit) => {
   cardText.classList.add('card-text');
   cardText.innerText = unit._name;
   cardBody.appendChild(cardText);
+
+  const profileMap = unit.getProfiles();
+  Object.entries(profileMap).forEach((entry) => {
+    const [profileName, profiles] = entry;
+    cardText.appendChild(profileTable(profileName, profiles));
+  });
 
   card.appendChild(cardBody);
   return card;

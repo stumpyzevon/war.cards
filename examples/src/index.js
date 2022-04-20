@@ -28,7 +28,7 @@ const mainDescription = () => {
  */
 const init = () => {
   const container = document.createElement('div');
-  container.classList.add('cover-container', 'd-flex', 'h-100', 'p-3', 'mx-auto', 'flex-column');
+  container.classList.add('cover-container', 'd-flex', 'h-100', 'p-3', 'mx-auto', 'flex-column', 'overflow-auto');
 
   container.appendChild(navBar());
   container.appendChild(mainDescription());

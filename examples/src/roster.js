@@ -7,9 +7,9 @@ const createRow = (parent) => {
   return row;
 };
 
-const createCol = (row, cls = 'col') => {
+const createCol = (row, cls = ['col']) => {
   const col = document.createElement('div');
-  col.classList.add(cls);
+  col.classList.add(...cls);
   row.appendChild(col);
   return col;
 };
@@ -45,7 +45,7 @@ const setRoster = (roster) => {
 
   const forceRow = createRow(container);
   roster.forces[0].selections.forEach((sel) => {
-    const cardCol = createCol(forceRow, 'col-6');
+    const cardCol = createCol(forceRow, ['col-12', 'col-lg-6', 'col-xxl-4']);
     cardCol.appendChild(unitCard(sel));
     forceRow.appendChild(cardCol);
   });
