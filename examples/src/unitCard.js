@@ -1,4 +1,5 @@
 import profileTable from './profileTable';
+import categoryList from './categoryList';
 
 const unitCard = (unit) => {
   const card = document.createElement('div');
@@ -23,6 +24,9 @@ const unitCard = (unit) => {
     const [profileName, profiles] = entry;
     cardText.appendChild(profileTable(profileName, profiles));
   });
+
+  const catList = categoryList(unit.getCategories());
+  cardBody.appendChild(catList);
 
   card.appendChild(cardBody);
   return card;
