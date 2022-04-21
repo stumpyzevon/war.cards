@@ -1,5 +1,36 @@
 import createSelection from "./selection";
 
+/**
+ * Clones an object while removing undefined values, functions, and any provided keys.
+ */
+function omitDeep(input, excludes) {
+  return Object.entries(input).reduce((nextInput, [key, value]) => {
+    const shouldExclude = excludes.includes(key);
+    if (shouldExclude || value === undefined || typeof value === 'function') return nextInput;
+
+    if (Array.isArray(value)) {
+      const arrValue = value;
+      const nextValue = arrValue.map((arrItem) => {
+        if (typeof arrItem === 'object') {
+          return omitDeep(arrItem, excludes);
+        }
+        return arrItem;
+      });
+      nextInput[key] = nextValue;
+      return nextInput;
+    }
+
+    if (typeof value === 'object') {
+      nextInput[key] = omitDeep(value, excludes);
+      return nextInput;
+    }
+
+    nextInput[key] = value;
+
+    return nextInput;
+  }, {});
+}
+
 function createForce(force = undefined, roster = undefined) {
   const instance = {
     _id: undefined,
@@ -49,6 +80,19 @@ function createRoster(roster = undefined) {
     _xmlns: 'http://www.battlescribe.net/schema/rosterSchema',
     costs: [],
     forces: [],
+    /**
+     * Strips out all catalog/parent/etc references, null and undefined values.
+     *
+     * The result is suitable for use with a document db (or serialization).
+     */
+    clone() {
+      const clone = omitDeep(this, [
+        '_parent',
+        '_selection',
+        '_force',
+      ]);
+      return clone;
+    },
     populateFromRoster(roster) {
       this._id = roster._id;
       this._name = roster._name;
