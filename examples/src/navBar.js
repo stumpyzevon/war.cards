@@ -1,6 +1,6 @@
 import { createRosterFromXML } from '@war.cards/roster';
 import { uploadIcon, homeIcon, githubIcon } from './icons';
-import setRoster from './roster';
+import { setRoster } from './roster';
 
 const uploadButton = () => {
   const upload = document.createElement('a');

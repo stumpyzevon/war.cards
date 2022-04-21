@@ -1,18 +1,5 @@
-import unitCard from './unitCard';
-
-const createRow = (parent) => {
-  const row = document.createElement('div');
-  row.classList.add('row');
-  parent.appendChild(row);
-  return row;
-};
-
-const createCol = (row, cls = ['col']) => {
-  const col = document.createElement('div');
-  col.classList.add(...cls);
-  row.appendChild(col);
-  return col;
-};
+import createForce from './force';
+import { createRow, createCol } from './utils';
 
 const setRoster = (roster) => {
   const main = document.getElementById('main');
@@ -42,13 +29,20 @@ const setRoster = (roster) => {
   costs.classList.add('float-end');
   costs.innerText = costList;
   titleCol.appendChild(costs);
+  roster.forces.forEach((force) => {
+    const forceNameCol = createCol(createRow(container));
+    const forceNameTitle = document.createElement('h2');
+    forceNameTitle.innerText = force._name;
+    forceNameCol.appendChild(forceNameTitle);
+    container.appendChild(forceNameCol);
 
-  const forceRow = createRow(container);
-  roster.forces[0].selections.forEach((sel) => {
-    const cardCol = createCol(forceRow, ['col-12', 'col-lg-6', 'col-xxl-4']);
-    cardCol.appendChild(unitCard(sel));
-    forceRow.appendChild(cardCol);
+    const forceElement = createForce(force, roster);
+    container.appendChild(forceElement);
   });
 };
 
-export default setRoster;
+export {
+  createRow,
+  createCol,
+  setRoster,
+};
