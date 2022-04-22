@@ -7,6 +7,8 @@ These utilities are used in the https://war.cards roster editor.
 There is also a live demo [here](https://stumpyzevon.github.io/war.cards/). The code for the demo is in the
 `examples` folder of this repository.
 
+For additional help, hit up @stumpyzevon in the [war.cards Discord channel](https://discord.gg/4KFEYsCpG2).
+
 ## Usage
 
 First install the roster package:
