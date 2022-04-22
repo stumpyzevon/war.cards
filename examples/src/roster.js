@@ -22,17 +22,17 @@ const setRoster = (roster) => {
   }
   const title = document.createElement('h1');
   title.classList.add('float-start');
-  title.innerText = roster._name;
+  title.textContent = roster._name;
   titleCol.appendChild(title);
 
   const costs = document.createElement('span');
   costs.classList.add('float-end');
-  costs.innerText = costList;
+  costs.textContent = costList;
   titleCol.appendChild(costs);
   roster.forces.forEach((force) => {
     const forceNameCol = createCol(createRow(container));
     const forceNameTitle = document.createElement('h2');
-    forceNameTitle.innerText = force._name;
+    forceNameTitle.textContent = force._name;
     forceNameCol.appendChild(forceNameTitle);
     container.appendChild(forceNameCol);
 

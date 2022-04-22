@@ -6,7 +6,7 @@ const setHomeDescription = () => {
 
   const title = document.createElement('h1');
   title.classList.add('cover-heading');
-  title.innerText = 'Stumpy\'s Roster Viewer';
+  title.textContent = 'Stumpy\'s Roster Viewer';
   main.appendChild(title);
 
   const description = document.createElement('p');

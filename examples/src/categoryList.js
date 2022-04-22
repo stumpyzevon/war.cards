@@ -3,7 +3,7 @@ const categoryList = (categories) => {
   categories.forEach((cat) => {
     const badge = document.createElement('span');
     badge.classList.add('badge', cat._primary ? 'bg-primary' : 'bg-secondary');
-    badge.innerText = cat._name;
+    badge.textContent = cat._name;
     catList.appendChild(badge);
   });
   return catList;

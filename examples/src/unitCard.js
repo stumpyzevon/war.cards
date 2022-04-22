@@ -12,7 +12,7 @@ const unitCard = (unit) => {
 
   const cardTitle = document.createElement('h5');
   cardTitle.classList.add('card-title');
-  cardTitle.innerText = unit._name;
+  cardTitle.textContent = unit._name;
   cardBody.appendChild(cardTitle);
 
   const selList = selectionList(unit);

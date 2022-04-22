@@ -16,18 +16,18 @@ const profileTable = (profileName, profiles) => {
 
   Array.from(columnNames).forEach((colName) => {
     const headerCell = document.createElement('th');
-    headerCell.innerText = colName;
+    headerCell.textContent = colName;
     headerRow.appendChild(headerCell);
   });
 
   profiles.forEach((profile) => {
     const row = document.createElement('tr');
     const headerCell = document.createElement('th');
-    headerCell.innerText = profile._name;
+    headerCell.textContent = profile._name;
     row.appendChild(headerCell);
     profile.characteristics.forEach((c) => {
       const cell = document.createElement('td');
-      cell.innerText = c.__text;
+      cell.textContent = c.__text;
       row.appendChild(cell);
     });
     table.appendChild(row);

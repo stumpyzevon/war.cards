@@ -86,7 +86,7 @@ const navBar = () => {
 
   const brand = document.createElement('h3');
   brand.classList.add('masthead-brand');
-  brand.innerText = 'Stumpy\'s RV';
+  brand.textContent = 'Stumpy\'s RV';
   inner.appendChild(brand);
 
   const nav = document.createElement('nav');
