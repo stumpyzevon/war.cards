@@ -28,8 +28,9 @@
   },
   "dependencies": {
     "@war.cards/parse": "^0.1.1",
-    "@war.cards/roster": "^0.1.2",
+    "@war.cards/roster": "^0.1.3",
     "bootstrap": "^5.1.3",
+    "localforage": "^1.10.0",
     "lodash": "^4.17.21"
   }
 }
