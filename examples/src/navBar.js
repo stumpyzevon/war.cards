@@ -1,4 +1,5 @@
 import localforage from 'localforage';
+import JSZip from 'jszip';
 import { createRoster, createRosterFromXML } from '@war.cards/roster';
 import {
   uploadIcon,
@@ -23,15 +24,26 @@ const uploadButton = () => {
 
     fileInput.onchange = () => {
       const file = fileInput.files[0];
-      const reader = new FileReader();
-      reader.onload = (() => {
-        return (readerEvent) => {
-          const roster = createRosterFromXML(readerEvent.target.result);
+      JSZip.loadAsync(file).then((zip) => {
+        const rosFile = zip.file(/.*\.ros$/);
+        rosFile[0].async('string').then((contents) => {
+          const roster = createRosterFromXML(contents);
           setRoster(roster);
           localforage.setItem('roster', roster.clone());
-        };
-      })(file);
-      reader.readAsText(file);
+        });
+      }).catch(() => {
+        // assume this is just a .ros file
+        const reader = new FileReader();
+        reader.onload = (() => {
+          return (readerEvent) => {
+            const roster = createRosterFromXML(readerEvent.target.result);
+            setRoster(roster);
+            localforage.setItem('roster', roster.clone());
+          };
+        })(file);
+
+        reader.readAsText(file);
+      });
     };
   };
 

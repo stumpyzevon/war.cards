@@ -1,5 +1,9 @@
 # war.cards
 
+![Discord Shield](https://discordapp.com/api/guilds/960633449893482557/widget.png?style=shield)
+<span><a href="https://npmjs.org/@war.cards/roster" title="View this project on NPM"><img src="https://img.shields.io/npm/v/badges.svg" alt="NPM version" /></a></span>
+<span><a href="https://npmjs.org/@war.cards/parse" title="View this project on NPM"><img src="https://img.shields.io/npm/v/badges.svg" alt="NPM version" /></a></span>
+
 This is a collection of Javascript utilities for manipulating Battlescribe rosters.
 
 These utilities are used in the https://war.cards roster editor.

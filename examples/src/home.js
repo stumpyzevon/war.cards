@@ -12,7 +12,7 @@ const setHomeDescription = () => {
   const description = document.createElement('p');
   description.classList.add('lead');
   description.innerHTML = `This is an example of a roster viewer made using the war.cards parser. The same parser is used in the online roster editor
-<a href="https://war.cards">war.cards</a>. Click the&nbsp; ${uploadIcon().outerHTML} &nbsp;icon in the menu to begin.<br><br><strong>NOTE:</strong> this does not accept .rosz files! Only uncompressed .ros files.
+<a href="https://war.cards">war.cards</a>. Click the&nbsp; ${uploadIcon().outerHTML} &nbsp;icon in the menu to begin.
   `;
 
   main.appendChild(description);
